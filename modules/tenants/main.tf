@@ -54,5 +54,5 @@ ${k}:
     %{~ endif ~}
 %{~ endfor ~}
    EOF
-   filename = "../../../tenants_list_front.yaml"
+   filename = "../../../../../tenants_list_front.yaml"
 }
