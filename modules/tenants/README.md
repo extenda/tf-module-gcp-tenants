@@ -9,11 +9,14 @@
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:-----:|
-| tenant\_names  | List of tenants stored in yaml file in the caller side | `any` | n/a | yes |
-| project | Project where we will tenants will be created | `string` | n/a | yes |
+| tenant\_name  | Tenant name | `string` | n/a | yes |
+| project\_id | Project ID where we will tenants will be created | `string` | n/a | yes |
+| allow\_password\_signup | Allows email/pass sign-in for tenant | `bool` | n/a | yes |
+| idps | List of idps stored in yaml file in the caller side | `map` | n/a | yes |
+
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| tenant\_names | Tenant's display names |
+| tenant\_name | Tenant's display name |
