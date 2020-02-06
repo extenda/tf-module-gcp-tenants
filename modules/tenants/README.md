@@ -1,9 +1,15 @@
+NOTE: 
+```
+You must enable the Google Identity Platform in the marketplace for the project prior to using these resources.
+
+You must enable multi-tenancy via the Cloud Console prior to creating tenants.
+```
+
 ## Providers
 
 | Name | Version |
 |------|---------|
 | google | n/a |
-| local  | n/a |
 
 ## Inputs
 
